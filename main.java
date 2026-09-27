@@ -26,21 +26,18 @@ public class Main {
             }
         }
 
-        // 4. Печать b
         System.out.println("Массив b:");
         for (int v : b) {
             System.out.print(v + " ");
         }
         System.out.println("\n");
 
-        // Печать x
         System.out.println("Массив x:");
         for (float v : x) {
             System.out.printf("%.4f ", v);
         }
         System.out.println("\n");
 
-        // Печать m с 4 знаками после запятой
         System.out.println("Матрица m:");
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
