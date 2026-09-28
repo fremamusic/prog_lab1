@@ -27,23 +27,10 @@ public class Main {
             }
         }
 
-        System.out.println("Массив b:");
-        for (int value : b) {
-            System.out.print(value + " ");
-        }
-
-        System.out.println("\n");
-
-        System.out.println("Массив x:");
-        for (float value : x) {
-            System.out.printf("%.4f ", value);
-        }
-
-        System.out.println("\n");
 
         printMatrix(m);
     }
-    
+
     private static double calculateElement(int bi, double x, int[] specialSet) {
 
         if (bi == 8) {
@@ -65,7 +52,7 @@ public class Main {
 
         return Math.atan(1.0 / outerExp);
     }
-    
+
     private static boolean contains(int[] array, int value) {
         for (int element : array) {
             if (element == value) {
@@ -75,7 +62,7 @@ public class Main {
 
         return false;
     }
-    
+
     private static void printMatrix(double[][] matrix) {
         System.out.println("Матрица m:");
 
